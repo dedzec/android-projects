@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lista de Paises</string>
+    <string-array name="paises">
+        <item>Brasil</item>
+        <item>Canada</item>
+        <item>Estados Unidos</item>
+        <item>Portugal</item>
+        <item>Japão</item>
+    </string-array>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_musicas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lucas.app.playlist.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/edmusica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="musica"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:text="Cadastrar"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btentrar"
+            android:layout_below="@+id/edmusica" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="91dp"
+            android:id="@+id/musica" />
+
+        <Button
+            android:text="voltar"
+            android:layout_height="wrap_content"
+            android:id="@+id/btvoltar"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:layout_width="187dp"
+            android:layout_alignBaseline="@+id/btentrar"
+            android:layout_alignBottom="@+id/btentrar"
+            android:layout_toEndOf="@+id/btentrar" />
+
+    </RelativeLayout>
+</RelativeLayout>

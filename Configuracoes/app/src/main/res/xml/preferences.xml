@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_one_title">
+    <EditTextPreference
+        android:defaultValue="@string/pref_name_default"
+        android:key="@string/pref_name_key"
+        android:summary="@string/pref_name_summary"
+        android:title="@string/pref_name_title" />
+        <CheckBoxPreference
+            android:defaultValue="@string/pref_cb_one_default"
+            android:key="@string/pref_cb_one_key"
+            android:summary="@string/pref_cb_one_summary"
+            android:title="@string/pref_cb_one_title" />
+        <ListPreference
+            android:defaultValue="@string/pref_list_default"
+            android:dependency="@string/pref_cb_one_key"
+            android:dialogTitle="@string/pref_list_dialog_title"
+            android:entries="@string/prefs_example_array"
+            android:entryValues="@string/prefs_example_array_values"
+            android:key="@string/pref_list_key"
+            android:title="@string/pref_list_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_two_title">
+        <PreferenceScreen android:title="@string/pref_screen_two_title">
+            <CheckBoxPreference
+                android:defaultValue="@string/pref_cb_two_default"
+                android:key="@string/pref_cb_two_key"
+                android:summary="@string/pref_cb_two_summary"
+                android:title="@string/pref_cb_two_title" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

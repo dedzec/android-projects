@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bloco de notas</string>
+    <string-array name="splocal">
+        <item>Casa</item>
+        <item>IFPI</item>
+        <item>Shopping</item>
+        <item>Centro</item>
+        <item>Parque da cidadania</item>
+    </string-array>
+</resources>

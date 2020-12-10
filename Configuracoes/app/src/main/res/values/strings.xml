@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Configuracoes</string>
+    <string name="main_action_settings">Configurações</string>
+    <string name="pref_category_one_title">Categoria um</string>
+    <string name="pref_name_default"></string>
+    <string name="pref_name_key"></string>
+    <string name="pref_name_summary">Informe seu nome</string>
+    <string name="pref_name_title">Nome</string>
+    <string name="pref_cb_one_default"></string>
+    <string name="pref_cb_one_key"></string>
+    <string name="pref_cb_one_summary">Click para marcar</string>
+    <string name="pref_cb_one_title">CheckBox1</string>
+    <string name="pref_list_default"></string>
+    <string name="pref_list_dialog_title"></string>
+    <string name="prefs_example_array"></string>
+    <string name="prefs_example_array_values"></string>
+    <string name="pref_list_key"></string>
+    <string name="pref_list_title">Lista de Itens</string>
+    <string name="pref_category_two_title">Categoria dois</string>
+    <string name="pref_screen_two_title">Tela 2</string>
+    <string name="pref_cb_two_default"></string>
+    <string name="pref_cb_two_key"></string>
+    <string name="pref_cb_two_summary"></string>
+    <string name="pref_cb_two_title"></string>
+</resources>

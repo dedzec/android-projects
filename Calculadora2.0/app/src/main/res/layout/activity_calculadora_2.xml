@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_calculadora_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lucas.app.calculadora20.Calculadora_2">
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btresultado"
+        android:layout_toEndOf="@+id/btresultado"
+        android:id="@+id/button8" />
+
+    <Button
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/bt0" />
+
+    <Button
+        android:text="="
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/btvirgula"
+        android:id="@+id/btresultado" />
+
+    <Button
+        android:text="+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btresultado"
+        android:layout_toEndOf="@+id/btresultado"
+        android:id="@+id/btsomar" />
+
+    <Button
+        android:text=","
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btvirgula"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/bt0" />
+
+    <Button
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt0"
+        android:layout_alignParentStart="true"
+        android:id="@+id/bt1" />
+
+    <Button
+        android:text="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt0"
+        android:layout_toStartOf="@+id/btresultado"
+        android:id="@+id/bt2" />
+
+    <Button
+        android:text="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btresultado"
+        android:layout_toStartOf="@+id/button8"
+        android:id="@+id/bt3" />
+
+    <Button
+        android:text="-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button8"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btsubtrair"
+        android:layout_toEndOf="@+id/btresultado" />
+
+    <Button
+        android:text="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btsubtrair"
+        android:layout_alignParentStart="true"
+        android:id="@+id/bt4" />
+
+    <Button
+        android:text="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bt4"
+        android:layout_toStartOf="@+id/bt3"
+        android:id="@+id/bt5" />
+
+    <Button
+        android:text="6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bt5"
+        android:layout_toStartOf="@+id/btsubtrair"
+        android:id="@+id/bt6" />
+
+    <Button
+        android:text="x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btsubtrair"
+        android:layout_toEndOf="@+id/bt6"
+        android:id="@+id/btmultiplicar" />
+
+    <Button
+        android:text="7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt4"
+        android:layout_alignParentStart="true"
+        android:id="@+id/bt7" />
+
+    <Button
+        android:text="8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bt7"
+        android:layout_toEndOf="@+id/bt4"
+        android:id="@+id/bt8" />
+
+    <Button
+        android:text="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt9"
+        android:layout_alignBaseline="@+id/bt8"
+        android:layout_alignBottom="@+id/bt8"
+        android:layout_toEndOf="@+id/bt8" />
+
+    <Button
+        android:text="/"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btmultiplicar"
+        android:layout_toEndOf="@+id/bt9"
+        android:id="@+id/btdividir" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bt7"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="46dp"
+        android:id="@+id/tvcaixa"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btlimpar"
+        android:layout_toEndOf="@+id/bt7"
+        android:id="@+id/btraiz"
+        android:text="√" />
+
+    <Button
+        android:text="%"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btpercentual"
+        android:layout_above="@+id/bt9"
+        android:layout_toEndOf="@+id/bt8" />
+
+    <Button
+        android:text="C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btlimpar"
+        android:layout_above="@+id/bt7"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="DEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btpercentual"
+        android:layout_toEndOf="@+id/bt9"
+        android:id="@+id/btdeletar" />
+</RelativeLayout>

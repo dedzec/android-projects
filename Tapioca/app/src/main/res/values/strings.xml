@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tapioca</string>
+    <string-array name="Selecionar_sabor1">
+        <item>Chocolate R$ 5 </item>
+        <item>Tradicional R$ 3</item>
+        <item>Queijo R$ 4</item>
+        <item>Ovo R$ 3</item>
+        <item>Frango R$ 5</item>
+        <item>Carne seca R$ 6</item>
+
+    </string-array>
+    <string-array name="Selecionar_sabor2">
+        <item>Chocolate R$ 5 </item>
+        <item>Tradicional R$ 3</item>
+        <item>Queijo R$ 4</item>
+        <item>Ovo R$ 3</item>
+        <item>Frango R$ 5</item>
+        <item>Carne seca R$ 6</item>
+    </string-array>
+</resources>

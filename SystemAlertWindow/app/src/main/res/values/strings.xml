@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SystemAlertWindow</string>
+    <string name="accservice_desc">O Auto Click usa servicos de acessibilidade para realizar cliques em outros aplicativos.\n\nO servico de acessibilidade do Auto Click precisa das seguintes permissoes:\n\n- &quot;Monitorar suas acoes": usar recursos de acessibilidade (notificacoes sobre suas interacoes com outras pessoas os aplicativos nao serao processados)\n\n- &quot;Executar gestos": para executar gestos automaticos de cliques.\n\n- &quot;Recuperar conteudo da janela": para detectar qual janela do aplicativo esta sendo exibida no momento</string>
+    <string name="accservice_summ">O Auto Click usa servicos de acessibilidade para realizar cliques em outros aplicativos.</string>
+</resources>

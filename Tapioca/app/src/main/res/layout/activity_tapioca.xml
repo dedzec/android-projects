@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tapioca"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lucas.app.tapioca.tapioca">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Digite o sabor da tapioca"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/selecionar_sabor1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/selecionar_sabor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/idrefrigerante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Refrigerante 1L R$ 4,00" />
+
+        <CheckBox
+            android:id="@+id/idcafe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Café R$ 2,00" />
+
+        <CheckBox
+            android:id="@+id/idsuco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suco R$ 5,00" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="2"
+            android:progress="1" />
+
+        <TextView
+            android:id="@+id/idmassa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo de massa: Normal" />
+
+        <CheckBox
+            android:id="@+id/identrega"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Local da entrega" />
+
+        <EditText
+            android:id="@+id/idlocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digite o local da entrega"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/idfinalizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FINALIZAR" />
+
+    </LinearLayout>
+</RelativeLayout>

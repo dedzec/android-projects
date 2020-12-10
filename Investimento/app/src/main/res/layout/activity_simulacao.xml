@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Investimento ano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvano"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:text="Usuário:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvusuario"
+            android:layout_below="@+id/tvano"
+            android:layout_alignParentStart="true"
+            android:textSize="24sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:text="Valor atual:      R$"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv"
+            android:layout_below="@+id/tvusuario"
+            android:layout_alignParentStart="true"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:layout_toStartOf="@+id/tvvalor" />
+
+        <TextView
+            android:text="Empresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="22dp"
+            android:layout_marginTop="45dp"
+            android:id="@+id/textView9"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:layout_below="@+id/tvvalor"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView9"
+            android:layout_alignEnd="@+id/textView9"
+            android:layout_marginEnd="13dp"
+            android:layout_marginTop="23dp"
+            android:id="@+id/textView12"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView12"
+            android:layout_alignEnd="@+id/textView9"
+            android:layout_marginTop="19dp"
+            android:id="@+id/textView13"
+            android:textSize="24sp"
+            android:layout_alignStart="@+id/textView12"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:text="%%%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView13"
+            android:layout_toStartOf="@+id/textView12"
+            android:layout_marginEnd="37dp"
+            android:id="@+id/tvA"
+            android:textSize="24sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:text="%%%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView13"
+            android:layout_alignStart="@+id/tvA"
+            android:id="@+id/tvB"
+            android:textSize="24sp"
+            android:textColor="@android:color/black" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvA"
+            android:layout_alignParentStart="true"
+            android:id="@+id/progressBarA"
+            android:layout_toStartOf="@+id/tvA" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvB"
+            android:layout_alignParentStart="true"
+            android:id="@+id/progressBarB"
+            android:layout_toStartOf="@+id/tvB" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/edA"
+            android:layout_alignEnd="@+id/edA"
+            android:layout_marginTop="13dp"
+            android:id="@+id/edB"
+            android:hint="Aplicação p/ empresa B" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_marginTop="53dp"
+            android:id="@+id/edA"
+            android:hint="Aplicação p/ empresa A"
+            android:layout_below="@+id/tvB"
+            android:layout_toStartOf="@+id/textView13"
+            android:layout_alignEnd="@+id/textView13" />
+
+        <Button
+            android:text="Aplicar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edB"
+            android:layout_marginTop="17dp"
+            android:id="@+id/btaplicar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="--"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvusuario"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/tvvalor"
+            android:textSize="24sp"
+            android:textColor="@android:color/holo_red_dark" />
+
+    </RelativeLayout>
+
+</LinearLayout>
